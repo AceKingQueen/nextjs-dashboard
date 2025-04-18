@@ -1,7 +1,10 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // for partial prerendering in prod
+  // experimental: {
+  //   ppr: "incremental",
+  // },
 };
 
 export default nextConfig;
